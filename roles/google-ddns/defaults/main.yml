@@ -1,0 +1,16 @@
+---
+# enable or disable the application
+google_ddns: false
+google_ddns_available_externally: "false"
+
+# network
+# glances_hostname: "glances"
+# glances_port_one: "61208"
+# glances_port_two: "61209"
+
+# security options
+# glances_security_options:
+#   - "apparmor=unconfined"
+
+# # specs
+# glances_memory: 1g
