@@ -9,7 +9,7 @@
 - name: Krusader Docker Container
   docker_container:
     name: krusader
-    image: ibch777/krusader:latest
+    image: ich777/krusader:latest
     pull: true
     volumes:
       - "{{ krusader_config_directory }}:/config:rw"
