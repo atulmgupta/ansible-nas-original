@@ -1,6 +1,6 @@
 ---
-deluge_enabled: false
-deluge_available_externally: "false"
+deluge_enabled: true
+deluge_available_externally: "true"
 
 # directories
 deluge_config_directory: "{{ docker_home }}/deluge/config"

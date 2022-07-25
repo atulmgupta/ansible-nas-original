@@ -1,5 +1,5 @@
 ---
-cloudflare_ddns_enabled: false
+cloudflare_ddns_enabled: true
 
 # Data directory for config file
 cloudflare_data_directory: "{{ docker_home }}/cloudflare_ddns"

@@ -1,6 +1,6 @@
 ---
-dashy_enabled: false
-dashy_available_externally: "false"
+dashy_enabled: true
+dashy_available_externally: "true"
 
 # network
 dashy_port: "8082"

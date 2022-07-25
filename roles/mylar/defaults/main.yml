@@ -1,7 +1,7 @@
 ---
 # enable or disable the application
-mylar_enabled: false
-mylar_available_externally: "false"
+mylar_enabled: true
+mylar_available_externally: "true"
 
 # directories
 mylar_data_directory: "{{ docker_home }}/mylar"

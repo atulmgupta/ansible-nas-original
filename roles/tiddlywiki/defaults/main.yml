@@ -1,7 +1,7 @@
 ---
 
-tiddlywiki_enabled: false
-tiddlywiki_available_externally: "false"
+tiddlywiki_enabled: true
+tiddlywiki_available_externally: "true"
 
 # Data directory for config file
 tiddlywiki_data_directory: "{{ docker_home }}/tiddlywiki"

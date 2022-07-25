@@ -1,7 +1,7 @@
 ---
 # enable or disable the application
 google_ddns: false
-google_ddns_available_externally: "false"
+google_ddns_available_externally: "true"
 
 # network
 # glances_hostname: "glances"

@@ -1,6 +1,6 @@
 ---
-nzbget_enabled: false
-nzbget_available_externally: "false"
+nzbget_enabled: true
+nzbget_available_externally: "true"
 
 # directories
 nzbget_data_directory: "{{ docker_home }}/nzbget"

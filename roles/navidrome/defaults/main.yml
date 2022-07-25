@@ -1,6 +1,6 @@
 ---
-navidrome_enabled: false
-navidrome_available_externally: "false"
+navidrome_enabled: true
+navidrome_available_externally: "true"
 
 # directories
 navidrome_data_directory: "{{ docker_home }}/navidrome"

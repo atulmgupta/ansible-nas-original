@@ -1,6 +1,6 @@
 ---
-rssbridge_enabled: false
-rssbridge_available_externally: "false"
+rssbridge_enabled: true
+rssbridge_available_externally: "true"
 
 # directories
 rssbridge_data_directory: "{{ docker_home }}/rssbridge"

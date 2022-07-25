@@ -1,6 +1,6 @@
 ---
-emby_enabled: false
-emby_available_externally: "false"
+emby_enabled: true
+emby_available_externally: "true"
 
 # directories
 emby_config_directory: "{{ docker_home }}/emby/config"

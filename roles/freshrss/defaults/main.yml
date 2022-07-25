@@ -1,6 +1,6 @@
 ---
-freshrss_enabled: false
-freshrss_available_externally: "false"
+freshrss_enabled: true
+freshrss_available_externally: "true"
 
 # directories
 freshrss_data_directory: "{{ docker_home }}/freshrss"

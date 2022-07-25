@@ -1,6 +1,6 @@
 ---
-tautulli_enabled: false
-tautulli_available_externally: "false"
+tautulli_enabled: true
+tautulli_available_externally: "true"
 
 # directories
 tautulli_config_directory: "{{ docker_home }}/tautulli/config"

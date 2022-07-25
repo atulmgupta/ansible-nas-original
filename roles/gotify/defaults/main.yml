@@ -1,6 +1,6 @@
 ---
-gotify_enabled: false
-gotify_available_externally: "false"
+gotify_enabled: true
+gotify_available_externally: "true"
 
 # data directory
 gotify_data_directory: "{{ docker_home }}/gotify"

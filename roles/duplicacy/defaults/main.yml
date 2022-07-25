@@ -1,6 +1,6 @@
 ---
-duplicacy_enabled: false
-duplicacy_available_externally: "false"
+duplicacy_enabled: true
+duplicacy_available_externally: "true"
 
 # directories
 duplicacy_config_directory: "{{ docker_home }}/duplicacy/config"

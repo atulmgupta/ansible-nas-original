@@ -1,6 +1,6 @@
 ---
-airsonic_enabled: false
-airsonic_available_externally: "false"
+airsonic_enabled: true
+airsonic_available_externally: "true"
 
 # directories
 airsonic_data_directory: "{{ docker_home }}/airsonic"

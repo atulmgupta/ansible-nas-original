@@ -1,5 +1,5 @@
 ---
-get_iplayer_enabled: false
+get_iplayer_enabled: true
 
 # directories
 get_iplayer_config_directory: "{{ docker_home }}/get_iplayer"

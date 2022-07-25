@@ -1,6 +1,6 @@
 ---
-overseerr_enabled: false
-overseerr_available_externally: "false"
+overseerr_enabled: true
+overseerr_available_externally: "true"
 
 # directories
 overseerr_data_directory: "{{ docker_home }}/overseerr"

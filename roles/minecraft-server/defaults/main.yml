@@ -1,5 +1,5 @@
 ---
-minecraft_server_enabled: false
+minecraft_server_enabled: true
 
 # directories
 minecraft_server_data_directory: "{{ docker_home }}/minecraft_server"

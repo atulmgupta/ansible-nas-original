@@ -1,5 +1,5 @@
 ---
-mosquitto_enabled: false
+mosquitto_enabled: true
 
 # directories
 mosquitto_data_directory: "{{ docker_home }}/mosquitto"

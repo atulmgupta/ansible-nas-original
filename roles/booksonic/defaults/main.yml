@@ -1,6 +1,6 @@
 ---
-booksonic_enabled: false
-booksonic_available_externally: "false"
+booksonic_enabled: true
+booksonic_available_externally: "true"
 
 # uid / gid
 booksonic_user_id: "1000"

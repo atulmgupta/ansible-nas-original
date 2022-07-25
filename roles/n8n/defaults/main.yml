@@ -1,8 +1,8 @@
 ---
-n8n_enabled: false
+n8n_enabled: true
 
 # Networking
-n8n_available_externally: "false"
+n8n_available_externally: "true"
 n8n_port: 5678
 n8n_hostname: "n8n"
 

@@ -1,6 +1,6 @@
 ---
-pyload_enabled: false
-pyload_available_externally: "false"
+pyload_enabled: true
+pyload_available_externally: "true"
 
 # directories
 pyload_config_directory: "{{ docker_home }}/pyload"

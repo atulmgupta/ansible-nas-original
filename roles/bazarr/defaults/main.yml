@@ -1,6 +1,6 @@
 ---
-bazarr_enabled: false
-bazarr_available_externally: "false"
+bazarr_enabled: true
+bazarr_available_externally: "true"
 
 # directories
 bazarr_data_directory: "{{ docker_home }}/bazarr/config"
