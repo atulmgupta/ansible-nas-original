@@ -1,0 +1,59 @@
+---
+##                       ._____.   .__
+##  _____    ____   _____|__\_ |__ |  |   ____             ____ _____    ______
+##  \__  \  /    \ /  ___/  || __ \|  | _/ __ \   ______  /    \\__  \  /  ___/
+##   / __ \|   |  \\___ \|  || \_\ \  |_\  ___/  /_____/ |   |  \/ __ \_\___ \
+##  (____  /___|  /____  >__||___  /____/\___  >         |___|  (____  /____  >
+##       \/     \/     \/        \/          \/               \/     \/     \/
+##     a n s i b l e - n a s      https://github.com/davestephens/ansible-nas
+
+# Add your all.yml config overrides to this file. See group_vars/all.yml for all possible settings.
+
+# Example options
+ansible_nas_hostname: ansible-nas
+ansible_nas_timezone: Etc/UTC
+
+## Enable some applications
+heimdall_enabled: true
+portainer_enabled: true
+
+
+stats_enabled: true
+guacamole_enabled: true
+virtual_desktop_enabled: true
+krusader_enabled: true
+
+# Backup & Restore
+timemachine_enabled: true
+
+# IRC
+thelounge_enabled: true
+
+# Wallabag
+wallabag_enabled: true
+
+# Home Automation
+mosquitto_enabled: true
+openhab_enabled: true
+
+# Books
+calibre_enabled: true
+
+# Ubooquity
+ubooquity_enabled: true
+
+# Joomla
+joomla_enabled: true
+
+###
+### General
+###
+
+# Will be added to the docker group to give user command line access to docker
+ansible_nas_user: atul
+
+# Your email and domain, used for Let's Encrypt SSL certs
+ansible_nas_email: atulmgupta@outlook.com
+
+# Applications will have subdomain SSL certificates created if Traefik is enabled, e.g. ansible-nas.<your-domain>, nextcloud.<your-domain>
+ansible_nas_domain: atulgupta.me
