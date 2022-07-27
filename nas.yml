@@ -148,7 +148,7 @@
     - role: healthchecks.io
       tags:
         - healthchecks.io
-      when: (healthchecks_enabled | default(True))
+      when: (healthchecks_enabled | default(False))
 
     - role: heimdall
       tags:
