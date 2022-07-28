@@ -1,5 +1,5 @@
 ---
-octoprint_enabled: true
+octoprint_enabled: false
 octoprint_available_externally: false
 
 # directories
